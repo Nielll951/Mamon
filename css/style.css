@@ -119,6 +119,7 @@ button:hover {
    width: 100%;
    max-width: 1212px;
    margin: 0 auto;
+   padding: 0px 15px;
 }
 
 .page-top {
