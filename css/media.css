@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+   header+.page {
+      padding-top: 40px;
+   }
+}
+
+
+@media (max-width: 768px) {
+   .header {
+      padding-top: 20px;
+   }
+
+   .nav>li {
+      margin-left: 20px;
+   }
+
+   .page {
+      padding-top: 20px;
+      padding-bottom: 0;
+      margin-bottom: 50px;
+   }
+
+   .page__title {
+      font-size: 40px;
+   }
+
+   .page__text {
+      font-size: 20px;
+      margin-bottom: 30px;
+      margin-top: 25px;
+   }
+
+   .services {
+      display: block;
+      grid-row-gap: 20px;
+   }
+
+   .services__item {
+      margin-bottom: 10px;
+   }
+
+   .services h3 {
+      /* margin-top: 0; */
+   }
+
+   .clients {
+      padding-top: 40px;
+      padding-bottom: 15px;
+      grid-template: repeat(2, 1fr) / repeat(3, 33.333%);
+   }
+
+   .team {
+      padding-top: 40px;
+      grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+   }
+}
+
+@media (max-width: 600px) {
+   .header {
+      padding-top: 5px;
+      flex-wrap: wrap;
+   }
+
+   .logo {
+      margin-bottom: 0px;
+   }
+
+   .clients {
+      grid-template: repeat(2, 1fr) / repeat(2, 50%);
+   }
+}
+
+@media (max-width: 480px) {
+   .page__title {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 5px;
+   }
+
+   .page__text {
+      text-align: center;
+   }
+
+   .team {
+      grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+   }
+
+   .team__item {
+      margin: 0 auto;
+   }
+}
+
+@media (max-width: 400px) {
+   .wrap {
+      text-align: center;
+   }
+
+   .nav {
+      padding-left: 0;
+   }
+
+   .page__title {
+      font-size: 30px;
+   }
+
+   .page__text {
+      font-size: 18px;
+      margin-bottom: 25px;
+      margin-top: 20px;
+   }
+
+   .services__item {
+      margin-bottom: 0px;
+   }
+
+   .services .services__item:last-child .services__text p {
+      margin-bottom: 0;
+   }
+
+   .services__img {
+      flex-basis: 130px;
+   }
+
+   .services h3 {
+      margin-top: 10px;
+   }
+}
+
+@media (max-width: 360px) {
+   .page {
+      margin-bottom: 30px;
+   }
+
+   .nav {
+      margin-top: 5px;
+      margin-bottom: 0px;
+   }
+
+   .nav>li {
+      margin-left: 15px;
+   }
+
+   .clients {
+      padding-top: 25px;
+      grid-template: repeat(2, 1fr) / repeat(1, 100%);
+      grid-row-gap: 30px;
+   }
+
+   .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+
+   .social li {
+      margin-left: 20px;
+   }
+}
+
+@media (max-width: 320px) {
+   .nav>li {
+      margin-left: 12px;
+   }
+}
